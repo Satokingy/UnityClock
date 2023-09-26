@@ -14,8 +14,6 @@ public class Time : MonoBehaviour {
 
     void Start()
     {	
-	//静止画を表示する場合はtargetFrameRateを1にしておくと節電できます
-	Application.targetFrameRate = 60;
 	Invoke(nameof(Delay), 1f);
     }    
 
